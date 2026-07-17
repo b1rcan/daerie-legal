@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Terms of Service — Daerie</title>
+<style>
+  :root {
+    --bg: #2A1608;
+    --bg-elevated: #331C0C;
+    --gold: #D4A050;
+    --gold-dim: #B8863E;
+    --text: #F2E9DC;
+    --text-dim: #C9B79C;
+    --divider: #4A3018;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 64px 24px 96px;
+  }
+
+  header.hero {
+    margin-bottom: 56px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid var(--divider);
+  }
+
+  .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    font-size: 12px;
+    color: var(--gold);
+    font-weight: 600;
+    margin-bottom: 14px;
+  }
+
+  h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 38px;
+    font-weight: 400;
+    margin: 0 0 14px;
+    color: var(--text);
+    letter-spacing: -0.01em;
+  }
+
+  .meta {
+    color: var(--text-dim);
+    font-size: 14px;
+  }
+
+  .meta strong { color: var(--gold-dim); font-weight: 600; }
+
+  nav.toc {
+    background: var(--bg-elevated);
+    border: 1px solid var(--divider);
+    border-radius: 10px;
+    padding: 20px 24px;
+    margin-bottom: 48px;
+  }
+
+  nav.toc .toc-title {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--gold);
+    margin-bottom: 12px;
+    font-weight: 600;
+  }
+
+  nav.toc ol {
+    margin: 0;
+    padding-left: 20px;
+    columns: 2;
+    -webkit-columns: 2;
+    column-gap: 24px;
+  }
+
+  nav.toc li { margin-bottom: 6px; break-inside: avoid; }
+
+  nav.toc a {
+    color: var(--text-dim);
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+  nav.toc a:hover { color: var(--gold); }
+
+  section {
+    margin-bottom: 40px;
+    scroll-margin-top: 24px;
+  }
+
+  section h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: var(--gold);
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin: 0 0 14px;
+  }
+
+  section h2 .num {
+    font-size: 14px;
+    color: var(--gold-dim);
+    font-family: -apple-system, sans-serif;
+    font-weight: 600;
+  }
+
+  section p, section li {
+    color: var(--text);
+    font-size: 15.5px;
+  }
+
+  section ul {
+    padding-left: 22px;
+    margin: 10px 0;
+  }
+
+  section li { margin-bottom: 6px; }
+
+  .plan-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0;
+    font-size: 14.5px;
+  }
+
+  .plan-table th, .plan-table td {
+    text-align: left;
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--divider);
+  }
+
+  .plan-table th {
+    color: var(--gold);
+    font-weight: 600;
+    font-size: 12.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .note {
+    background: var(--bg-elevated);
+    border-left: 3px solid var(--gold-dim);
+    padding: 14px 18px;
+    border-radius: 6px;
+    font-size: 14px;
+    color: var(--text-dim);
+    margin: 16px 0;
+  }
+
+  a { color: var(--gold); }
+
+  footer {
+    margin-top: 64px;
+    padding-top: 28px;
+    border-top: 1px solid var(--divider);
+    color: var(--text-dim);
+    font-size: 13.5px;
+  }
+
+  footer a { color: var(--gold-dim); }
+
+  @media (max-width: 600px) {
+    .wrap { padding: 40px 18px 72px; }
+    h1 { font-size: 28px; }
+    nav.toc ol { columns: 1; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="hero">
+    <div class="eyebrow">Legal</div>
+    <h1>Terms of Service</h1>
+    <div class="meta">
+      Effective date: <strong>July 17, 2026</strong> &nbsp;·&nbsp;
+      Applies to: <strong>Daerie</strong> (Android, package <strong>com.gunlukarkadasim</strong>)
+    </div>
+  </header>
+
+  <nav class="toc">
+    <div class="toc-title">Contents</div>
+    <ol>
+      <li><a href="#acceptance">Acceptance of Terms</a></li>
+      <li><a href="#service">The Service</a></li>
+      <li><a href="#eligibility">Eligibility</a></li>
+      <li><a href="#account">Your Account</a></li>
+      <li><a href="#subscriptions">Subscriptions &amp; Billing</a></li>
+      <li><a href="#content">Your Content</a></li>
+      <li><a href="#ai">AI Features</a></li>
+      <li><a href="#conduct">Acceptable Use</a></li>
+      <li><a href="#ip">Intellectual Property</a></li>
+      <li><a href="#disclaimer">Disclaimers</a></li>
+      <li><a href="#liability">Limitation of Liability</a></li>
+      <li><a href="#termination">Termination</a></li>
+      <li><a href="#changes">Changes to These Terms</a></li>
+      <li><a href="#law">Governing Law</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ol>
+  </nav>
+
+  <section id="acceptance">
+    <h2><span class="num">1</span>Acceptance of Terms</h2>
+    <p>By downloading, installing, or using Daerie ("the App," "we," "us," "our"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree, please do not use the App. These Terms should be read together with our <a href="#">Privacy Policy</a>, which explains how we handle your data.</p>
+  </section>
+
+  <section id="service">
+    <h2><span class="num">2</span>The Service</h2>
+    <p>Daerie is a personal journaling application that lets you write diary entries by keyboard, voice, or stylus, customize notebook covers and themes, and optionally chat with an AI companion for reflection and support. Some features are available for free; others require a Mini or Pro subscription as described in Section 5.</p>
+  </section>
+
+  <section id="eligibility">
+    <h2><span class="num">3</span>Eligibility</h2>
+    <p>Daerie is intended for a general audience and is not directed at children. You must meet the minimum age of digital consent in your country to use the App without parental involvement, and you confirm that any information you provide is accurate.</p>
+  </section>
+
+  <section id="account">
+    <h2><span class="num">4</span>Your Account</h2>
+    <p>You may sign in using Google Sign-In or another supported method. You are responsible for keeping your account credentials and device secure. If you enable a PIN or biometric lock, losing access to it may result in permanent loss of access to your journal — we do not maintain a recovery method that bypasses this protection.</p>
+  </section>
+
+  <section id="subscriptions">
+    <h2><span class="num">5</span>Subscriptions &amp; Billing</h2>
+    <p>Daerie offers the following subscription tiers, billed through Google Play:</p>
+    <table class="plan-table">
+      <tr><th>Plan</th><th>Monthly</th><th>Yearly</th></tr>
+      <tr><td>Mini Yazar</td><td>$1.99</td><td>$17.99</td></tr>
+      <tr><td>Pro Yazar</td><td>$4.99</td><td>$44.99</td></tr>
+    </table>
+    <p>New subscribers may be offered a 7-day free trial. Unless cancelled before the trial ends, the subscription automatically converts to a paid, auto-renewing plan at the price shown above.</p>
+    <ul>
+      <li>Subscriptions renew automatically unless cancelled at least 24 hours before the end of the current period.</li>
+      <li>You can manage or cancel your subscription anytime through the Google Play Store subscriptions page.</li>
+      <li>Prices may vary by region and are shown in your local currency at checkout via Google Play.</li>
+      <li>Except where required by law, payments are non-refundable once a billing period has started.</li>
+      <li>We reserve the right to change subscription pricing for future billing periods, with notice provided in advance.</li>
+    </ul>
+    <div class="note">Downgrading, cancelling, or a failed renewal may result in loss of access to Mini/Pro-only features (voice or stylus writing, custom covers, unlimited AI chat, premium themes) — your journal entries themselves are not deleted.</div>
+  </section>
+
+  <section id="content">
+    <h2><span class="num">6</span>Your Content</h2>
+    <p>You retain full ownership of everything you write or create in Daerie — journal entries, drawings, and uploaded images ("Your Content"). We do not claim ownership over it. By using the App, you grant us a limited license to store, process, and transmit Your Content solely as needed to operate the service (for example, syncing entries via Firebase, or sending a message to our AI provider when you use AI Chat).</p>
+    <p>You are responsible for what you write and for keeping backups you consider important. We recommend not entering sensitive information you would not want stored on a cloud service.</p>
+  </section>
+
+  <section id="ai">
+    <h2><span class="num">7</span>AI Features</h2>
+    <p>AI Chat and AI monthly reports are powered by a third-party AI model provider. When you use these features, the relevant portion of your message is sent to that provider to generate a response. Free accounts cannot use AI Chat; Mini accounts have a monthly message limit; Pro accounts have unlimited access, subject to fair-use limits to prevent abuse.</p>
+    <div class="note">Daerie's AI companion is designed for reflection and everyday support. It is not a medical, psychiatric, or crisis service, and it is not a substitute for professional mental health care. If you are in crisis or need immediate help, please contact a licensed professional or your local emergency services.</div>
+  </section>
+
+  <section id="conduct">
+    <h2><span class="num">8</span>Acceptable Use</h2>
+    <p>You agree not to:</p>
+    <ul>
+      <li>Use the App for any unlawful purpose or to violate any applicable law or regulation.</li>
+      <li>Attempt to reverse-engineer, decompile, or tamper with the App's security or entitlement checks.</li>
+      <li>Use automated means to access the App or AI features in a way that abuses rate limits or shared infrastructure.</li>
+      <li>Upload content that is illegal, infringes on others' rights, or is intended to harass, harm, or exploit others.</li>
+      <li>Attempt to gain unauthorized access to another user's account or data.</li>
+    </ul>
+  </section>
+
+  <section id="ip">
+    <h2><span class="num">9</span>Intellectual Property</h2>
+    <p>The Daerie name, logo, app design, illustrations, themes, and cover artwork are owned by us or our licensors and are protected by intellectual property law. Nothing in these Terms grants you rights to our branding or design assets beyond normal use of the App.</p>
+  </section>
+
+  <section id="disclaimer">
+    <h2><span class="num">10</span>Disclaimers</h2>
+    <p>Daerie is provided "as is" and "as available," without warranties of any kind, express or implied, including fitness for a particular purpose or uninterrupted availability. We do not guarantee that the App will be error-free, that AI-generated responses will always be accurate or appropriate, or that data will never be lost, though we take reasonable steps (including Firestore security rules and infrastructure-level encryption) to protect it.</p>
+  </section>
+
+  <section id="liability">
+    <h2><span class="num">11</span>Limitation of Liability</h2>
+    <p>To the maximum extent permitted by law, Daerie and its developers are not liable for any indirect, incidental, or consequential damages arising from your use of the App, including loss of journal data, loss of access due to a forgotten PIN or biometric failure, or interruptions to AI features. Our total liability for any claim relating to the App will not exceed the amount you paid us in the twelve months preceding the claim.</p>
+  </section>
+
+  <section id="termination">
+    <h2><span class="num">12</span>Termination</h2>
+    <p>You may stop using Daerie and delete your account at any time. We may suspend or terminate access to the App for anyone who violates these Terms, engages in abuse of the service, or attempts to circumvent subscription entitlement checks.</p>
+  </section>
+
+  <section id="changes">
+    <h2><span class="num">13</span>Changes to These Terms</h2>
+    <p>We may update these Terms from time to time to reflect changes to the App or legal requirements. If we make material changes, we will make reasonable efforts to notify you in-app or by updating the effective date above. Continued use of the App after changes take effect constitutes acceptance of the revised Terms.</p>
+  </section>
+
+  <section id="law">
+    <h2><span class="num">14</span>Governing Law</h2>
+    <p>These Terms are governed by the laws of your country of residence, without regard to conflict-of-law principles, except where mandatory local consumer protection law provides otherwise.</p>
+    <div class="note">Bu maddeyi geliştirici olarak kendi yargı yetkinize (örn. Türkiye Cumhuriyeti yasaları) göre netleştirmek isteyebilirsiniz — şu an nötr/genel bırakıldı.</div>
+  </section>
+
+  <section id="contact">
+    <h2><span class="num">15</span>Contact</h2>
+    <p>Questions about these Terms can be sent to <a href="mailto:sanatcan1can@gmail.com">sanatcan1can@gmail.com</a>.</p>
+  </section>
+
+  <footer>
+    Daerie — Terms of Service · Last updated July 17, 2026
+  </footer>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Daerie</title>
+<style>
+  :root {
+    --bg: #2A1608;
+    --bg-elevated: #331C0C;
+    --gold: #D4A050;
+    --gold-dim: #B8863E;
+    --text: #F2E9DC;
+    --text-dim: #C9B79C;
+    --divider: #4A3018;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 64px 24px 96px;
+  }
+
+  header.hero {
+    margin-bottom: 56px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid var(--divider);
+  }
+
+  .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    font-size: 12px;
+    color: var(--gold);
+    font-weight: 600;
+    margin-bottom: 14px;
+  }
+
+  h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 38px;
+    font-weight: 400;
+    margin: 0 0 14px;
+    color: var(--text);
+    letter-spacing: -0.01em;
+  }
+
+  .meta {
+    color: var(--text-dim);
+    font-size: 14px;
+  }
+
+  .meta strong { color: var(--gold-dim); font-weight: 600; }
+
+  nav.toc {
+    background: var(--bg-elevated);
+    border: 1px solid var(--divider);
+    border-radius: 10px;
+    padding: 20px 24px;
+    margin-bottom: 48px;
+  }
+
+  nav.toc .toc-title {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--gold);
+    margin-bottom: 12px;
+    font-weight: 600;
+  }
+
+  nav.toc ol {
+    margin: 0;
+    padding-left: 20px;
+    columns: 2;
+    -webkit-columns: 2;
+    column-gap: 24px;
+  }
+
+  nav.toc li { margin-bottom: 6px; break-inside: avoid; }
+
+  nav.toc a {
+    color: var(--text-dim);
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+  nav.toc a:hover { color: var(--gold); }
+
+  section {
+    margin-bottom: 40px;
+    scroll-margin-top: 24px;
+  }
+
+  section h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: var(--gold);
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin: 0 0 14px;
+  }
+
+  section h2 .num {
+    font-size: 14px;
+    color: var(--gold-dim);
+    font-family: -apple-system, sans-serif;
+    font-weight: 600;
+  }
+
+  section h3 {
+    font-size: 16px;
+    color: var(--text);
+    margin: 20px 0 8px;
+    font-weight: 600;
+  }
+
+  section p, section li {
+    color: var(--text);
+    font-size: 15.5px;
+  }
+
+  section ul {
+    padding-left: 22px;
+    margin: 10px 0;
+  }
+
+  section li { margin-bottom: 6px; }
+
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0;
+    font-size: 14px;
+  }
+
+  .data-table th, .data-table td {
+    text-align: left;
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--divider);
+    vertical-align: top;
+  }
+
+  .data-table th {
+    color: var(--gold);
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .note {
+    background: var(--bg-elevated);
+    border-left: 3px solid var(--gold-dim);
+    padding: 14px 18px;
+    border-radius: 6px;
+    font-size: 14px;
+    color: var(--text-dim);
+    margin: 16px 0;
+  }
+
+  .badge {
+    display: inline-block;
+    background: var(--bg-elevated);
+    border: 1px solid var(--divider);
+    color: var(--gold-dim);
+    font-size: 11px;
+    font-weight: 600;
+    padding: 3px 9px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 10px;
+  }
+
+  a { color: var(--gold); }
+
+  footer {
+    margin-top: 64px;
+    padding-top: 28px;
+    border-top: 1px solid var(--divider);
+    color: var(--text-dim);
+    font-size: 13.5px;
+  }
+
+  footer a { color: var(--gold-dim); }
+
+  @media (max-width: 600px) {
+    .wrap { padding: 40px 18px 72px; }
+    h1 { font-size: 28px; }
+    nav.toc ol { columns: 1; }
+    .data-table { font-size: 13px; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="hero">
+    <div class="eyebrow">Legal</div>
+    <h1>Privacy Policy</h1>
+    <div class="meta">
+      Effective date: <strong>July 17, 2026</strong> &nbsp;·&nbsp;
+      Applies to: <strong>Daerie</strong> (Android, package <strong>com.gunlukarkadasim</strong>)
+    </div>
+  </header>
+
+  <nav class="toc">
+    <div class="toc-title">Contents</div>
+    <ol>
+      <li><a href="#intro">Introduction</a></li>
+      <li><a href="#data-we-collect">Data We Collect</a></li>
+      <li><a href="#how-we-use">How We Use Your Data</a></li>
+      <li><a href="#ai">AI Features &amp; Third-Party Processing</a></li>
+      <li><a href="#sharing">Third-Party Services &amp; Sharing</a></li>
+      <li><a href="#storage">Data Storage &amp; Security</a></li>
+      <li><a href="#retention">Data Retention</a></li>
+      <li><a href="#rights">Your Rights &amp; Choices</a></li>
+      <li><a href="#gdpr">EU / EEA &amp; UK Users (GDPR)</a></li>
+      <li><a href="#ccpa">California Users (CCPA/CPRA)</a></li>
+      <li><a href="#children">Children's Privacy</a></li>
+      <li><a href="#transfers">International Data Transfers</a></li>
+      <li><a href="#changes">Changes to This Policy</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ol>
+  </nav>
+
+  <section id="intro">
+    <h2><span class="num">1</span>Introduction</h2>
+    <p>This Privacy Policy explains how Daerie ("we," "us," "our") collects, uses, shares, and protects information when you use our journaling app. Daerie is built around a simple principle: your journal is yours. This policy tells you exactly what data we handle, why, and what control you have over it.</p>
+    <p>By using Daerie, you agree to the collection and use of information as described here. This policy should be read together with our <a href="#">Terms of Service</a>.</p>
+  </section>
+
+  <section id="data-we-collect">
+    <h2><span class="num">2</span>Data We Collect</h2>
+
+    <h3>Account information</h3>
+    <p>When you sign in (e.g., via Google Sign-In), we receive your name, email address, and profile ID associated with that account, so we can identify your account and sync your data across devices.</p>
+
+    <h3>Journal content</h3>
+    <p>Everything you create in the app — diary entries, drawings, cover and theme selections, and goals — is stored so the app can function and so your entries sync to your account.</p>
+
+    <h3>AI chat content</h3>
+    <p>If you use AI Chat or request an AI-generated monthly report, the text of your messages (and relevant journal context needed to generate a response) is processed as described in Section 4.</p>
+
+    <h3>Subscription &amp; purchase data</h3>
+    <p>If you subscribe to Mini or Pro, Google Play Billing shares purchase tokens, product IDs, and subscription status with us so we can unlock the correct features on your account. We do not receive or store your payment card details — those are handled entirely by Google Play.</p>
+
+    <h3>Device &amp; technical data</h3>
+    <p>We automatically collect limited technical information — such as app version, device model, operating system version, language setting, and crash diagnostics (via Firebase Crashlytics) — to keep the app stable and fix bugs.</p>
+
+    <div class="note">We use Firebase Analytics to understand, in aggregate, how the app is used — for example, which screens and features are opened most often. This helps us prioritize improvements. This data is not linked to your journal content.</div>
+
+    <h3>Security data (local only)</h3>
+    <p>If you enable an in-app PIN or biometric lock, this is verified using your device's own secure hardware/OS APIs. We do not receive or store your PIN or biometric data — it never leaves your device.</p>
+  </section>
+
+  <section id="how-we-use">
+    <h2><span class="num">3</span>How We Use Your Data</h2>
+    <ul>
+      <li>To provide core app functionality — saving, syncing, and displaying your journal across your devices</li>
+      <li>To authenticate you and protect your account</li>
+      <li>To process subscription purchases and unlock the correct tier of features</li>
+      <li>To generate AI chat responses and AI reports when you choose to use those features</li>
+      <li>To diagnose crashes and technical issues and improve app stability</li>
+      <li>To communicate with you about your account or respond to support requests</li>
+      <li>To comply with legal obligations</li>
+    </ul>
+    <p>We do <strong>not</strong> use your journal content to train AI models, and we do <strong>not</strong> sell your personal information to third parties.</p>
+  </section>
+
+  <section id="ai">
+    <h2><span class="num">4</span>AI Features &amp; Third-Party Processing</h2>
+    <span class="badge">Important</span>
+    <p>When you use AI Chat or request an AI monthly report, the relevant text is sent to our AI infrastructure provider (OpenRouter) which routes the request to the underlying AI model to generate a response. This processing happens only when you actively use these features — Free accounts cannot access AI Chat, and it is never used passively in the background.</p>
+    <ul>
+      <li>Only the content needed to generate a relevant response is sent — your message, your first name (so the AI can address you personally), and where relevant, limited journal context you're chatting about.</li>
+      <li>Our AI provider processes this data under a limited-use arrangement to deliver the response back to the app — not to build a profile of you for their own purposes or advertising.</li>
+      <li>By using AI Chat, you consent to this processing. You can avoid it entirely by simply not using AI Chat or AI reports — every other feature of Daerie works without it.</li>
+    </ul>
+  </section>
+
+  <section id="sharing">
+    <h2><span class="num">5</span>Third-Party Services &amp; Sharing</h2>
+    <p>We share limited data with the following service providers, solely to operate the app:</p>
+    <table class="data-table">
+      <tr><th>Provider</th><th>Purpose</th><th>Data involved</th></tr>
+      <tr><td>Firebase (Google)</td><td>Authentication, database (Firestore), crash reporting, backend functions, analytics</td><td>Account info, journal content, device/crash data, app usage/interaction data</td></tr>
+      <tr><td>Google Play Billing</td><td>Subscription purchases</td><td>Purchase token, product ID, subscription status</td></tr>
+      <tr><td>OpenRouter (AI provider)</td><td>Generating AI chat responses and reports</td><td>Chat message text, relevant journal context</td></tr>
+    </table>
+    <p>We do not sell your personal data. We only disclose data to third parties as described above, to comply with the law, or to protect the rights, safety, and security of Daerie or our users.</p>
+  </section>
+
+  <section id="storage">
+    <h2><span class="num">6</span>Data Storage &amp; Security</h2>
+    <p>Your data is stored using Firebase infrastructure, which encrypts data in transit and at rest. Access to your journal data is restricted through Firestore security rules that tie data to your authenticated account.</p>
+    <div class="note">Journal entries are <strong>not</strong> end-to-end encrypted. We made this choice deliberately: end-to-end encryption would mean a forgotten password results in permanent, unrecoverable data loss, which we consider a worse outcome for a personal journal. Your data is protected by Firebase's infrastructure-level encryption and strict access rules, and, optionally, by an in-app PIN/biometric lock on your device.</div>
+    <p>No method of electronic storage is 100% secure, and we cannot guarantee absolute security. We continuously review our security practices to reduce risk.</p>
+  </section>
+
+  <section id="retention">
+    <h2><span class="num">7</span>Data Retention</h2>
+    <p>We retain your account and journal data for as long as your account is active. If you delete your account (Settings → Delete Account), your data is permanently removed from our active systems, aside from what we are legally required to retain (e.g., certain billing records) or what may briefly persist in backups before automatic rotation.</p>
+  </section>
+
+  <section id="rights">
+    <h2><span class="num">8</span>Your Rights &amp; Choices</h2>
+    <ul>
+      <li><strong>Access &amp; export:</strong> your journal entries are visible to you at any time within the app.</li>
+      <li><strong>Deletion:</strong> you can permanently delete your account and all associated data from <strong>Settings → Delete Account</strong> inside the app.</li>
+      <li><strong>Correction:</strong> you can edit or remove any journal entry, cover, or profile detail directly in the app.</li>
+      <li><strong>Withdrawing AI consent:</strong> simply stop using AI Chat/reports at any time; no other feature depends on it.</li>
+      <li><strong>Questions or requests</strong> outside what the app supports directly can be sent to the contact email below.</li>
+    </ul>
+  </section>
+
+  <section id="gdpr">
+    <h2><span class="num">9</span>EU / EEA &amp; UK Users (GDPR)</h2>
+    <p>If you are located in the European Economic Area or the United Kingdom, you have rights under the GDPR / UK GDPR, including the right to access, rectify, erase, restrict, or port your personal data, and the right to object to certain processing. Our legal bases for processing are: performance of a contract (providing the app and subscriptions you sign up for), your consent (for AI features), and our legitimate interests (app stability and security).</p>
+    <p>You also have the right to lodge a complaint with your local data protection authority. To exercise any of these rights, use the in-app deletion tool described above or contact us at the email in Section 14.</p>
+  </section>
+
+  <section id="ccpa">
+    <h2><span class="num">10</span>California Users (CCPA/CPRA)</h2>
+    <p>If you are a California resident, you have the right to know what personal information we collect, to request deletion of that information, and to opt out of the "sale" or "sharing" of personal information. <strong>We do not sell or share your personal information</strong> as those terms are defined under the CCPA/CPRA. You can exercise your deletion rights directly via Settings → Delete Account, or by contacting us.</p>
+  </section>
+
+  <section id="children">
+    <h2><span class="num">11</span>Children's Privacy</h2>
+    <p>Daerie is not directed at children and is not designed for users under the minimum age of digital consent in their country. We do not knowingly collect personal information from children. If you believe a child has provided us with personal information, please contact us and we will take steps to delete it.</p>
+  </section>
+
+  <section id="transfers">
+    <h2><span class="num">12</span>International Data Transfers</h2>
+    <p>Because we use global infrastructure providers (Firebase/Google Cloud, OpenRouter), your data may be processed in countries other than your own, including the United States. Where required, we rely on appropriate safeguards (such as standard contractual clauses used by our providers) to protect data transferred internationally.</p>
+  </section>
+
+  <section id="changes">
+    <h2><span class="num">13</span>Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time to reflect changes to the app or legal requirements. Material changes will be reflected by updating the effective date above, and where appropriate, communicated in-app. Continued use of Daerie after changes take effect constitutes acceptance of the revised policy.</p>
+  </section>
+
+  <section id="contact">
+    <h2><span class="num">14</span>Contact</h2>
+    <p>Questions about this Privacy Policy, or requests regarding your data, can be sent to <a href="mailto:sanatcan1can@gmail.com">sanatcan1can@gmail.com</a>.</p>
+  </section>
+
+  <footer>
+    Daerie — Privacy Policy · Last updated July 17, 2026
+  </footer>
+
+</div>
+</body>
+</html>
